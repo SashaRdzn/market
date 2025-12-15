@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@source "./src/**/*.{svelte,js,ts}";
+
+@theme {
+	--color-brand-50: #e6f3ff;
+	--color-brand-100: #cde7ff;
+	--color-brand-200: #9bceff;
+	--color-brand-300: #69b6ff;
+	--color-brand-400: #379dff;
+	--color-brand-500: #0d84ff;
+	--color-brand-600: #0a6bcf;
+	--color-brand-700: #0853a0;
+	--color-brand-800: #053a70;
+	--color-brand-900: #032240;
+	--color-brand-950: #010b16;
+}
+
+:root {
+	color-scheme: light;
+}
+
+body {
+	@apply bg-slate-50 text-slate-900 font-sans antialiased min-h-screen;
+}
+
+a {
+	@apply text-brand-600 hover:text-brand-700 transition-colors;
+}
+
+input,
+select,
+button,
+textarea {
+	@apply outline-none;
+}
+
+.page-section {
+	@apply py-10 sm:py-14;
+}
+
+.card {
+	@apply bg-white border border-slate-200 rounded-2xl shadow-sm;
+}
