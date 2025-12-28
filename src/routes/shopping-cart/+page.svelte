@@ -68,7 +68,7 @@
 			<p class="mb-6 text-slate-500">Добавьте товары из каталога, чтобы оформить заказ.</p>
 			<a
 				href="/products"
-				class="inline-flex items-center gap-2 rounded-xl bg-brand-600 px-5 py-3 font-semibold text-white shadow-lg shadow-brand-500/30 transition hover:-translate-y-0.5 hover:bg-brand-700"
+				class="inline-flex !text-white items-center gap-2 rounded-xl bg-brand-600 px-5 py-3 font-semibold text-white shadow-lg shadow-brand-500/30 transition hover:-translate-y-0.5 hover:bg-brand-700"
 			>
 				Перейти в каталог
 			</a>
@@ -82,7 +82,7 @@
 		<div class="mt-6 grid gap-4 sm:grid-cols-[2fr_1fr]">
 			<div class="card space-y-3 p-5">
 				<h2 class="text-xl font-semibold text-slate-900">Промокод</h2>
-				<p class="text-sm text-slate-500">Пока без логики бэкенда, поле для примера UI.</p>
+				<p class="text-sm text-slate-500">Пока без логики бэкенда, пока для кайфа)))</p>
 				<input
 					class="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm focus:border-brand-400 focus:ring-2 focus:ring-brand-100"
 					placeholder="Введите промокод"

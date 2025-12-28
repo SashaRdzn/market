@@ -34,7 +34,7 @@
 			<div class="flex flex-wrap gap-3">
 				<a
 					href="/products"
-					class="inline-flex items-center justify-center rounded-xl bg-brand-600 px-5 py-3 font-semibold text-white shadow-lg shadow-brand-500/30 transition hover:-translate-y-0.5 hover:bg-brand-700"
+					class="inline-flex items-center justify-center !text-white rounded-xl bg-brand-600 px-5 py-3 font-semibold text-white shadow-lg shadow-brand-500/30 transition hover:-translate-y-0.5 hover:bg-brand-700"
 					>К каталогу</a
 				>
 				<a
@@ -59,7 +59,7 @@
 			</div>
 		</div>
 		<div class="card relative overflow-hidden transition duration-300 hover:shadow-lg">
-			<div class="absolute inset-0 bg-gradient-to-br from-brand-500/10 via-brand-500/5 to-brand-500/20"></div>
+			<div class="pointer-events-none absolute inset-0 bg-gradient-to-br from-brand-500/10 via-brand-500/5 to-brand-500/20"></div>
 			<div class="relative space-y-4 p-6">
 				<p class="text-sm font-semibold text-brand-700">Хит недели</p>
 				<h2 class="text-2xl font-bold text-slate-900">Шлем Breeze Pro</h2>
@@ -102,7 +102,7 @@
 			<p class="text-sm font-semibold uppercase tracking-wide text-brand-700">Популярное</p>
 			<h2 class="text-2xl font-bold text-slate-900">Популярные товары</h2>
 		</div>
-		<a class="text-sm font-semibold text-brand-700 hover:text-brand-800" href="/products">
+		<a class="text-sm font-semibold text-brand-700 hover:text-brand-800 !text-white" href="/products">
 			В каталог →
 		</a>
 	</div>

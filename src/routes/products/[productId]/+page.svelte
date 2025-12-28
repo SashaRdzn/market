@@ -84,7 +84,7 @@
 	<section class="page-section">
 		<div class="mb-4 flex items-center justify-between">
 			<h2 class="text-2xl font-bold text-slate-900">Похожие товары</h2>
-			<a class="text-sm font-semibold text-brand-700 hover:text-brand-800" href="/products">
+			<a class="text-sm font-semibold text-brand-700 hover:text-brand-800 !text-white" href="/products">
 				В каталог →
 			</a>
 		</div>

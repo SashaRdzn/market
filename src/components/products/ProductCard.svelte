@@ -15,7 +15,9 @@
 <article
 	class="card group relative overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:ring-2 hover:ring-brand-200/80"
 >
-	<div class="absolute inset-0 bg-gradient-to-br from-brand-500/0 via-brand-500/0 to-brand-500/10 opacity-0 transition group-hover:opacity-100"></div>
+	<div
+		class="pointer-events-none absolute inset-0 bg-gradient-to-br from-brand-500/0 via-brand-500/0 to-brand-500/10 opacity-0 transition group-hover:opacity-100"
+	></div>
 	<div class="aspect-[4/3] overflow-hidden">
 		<img
 			src={product.image}
